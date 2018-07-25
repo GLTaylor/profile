@@ -1,0 +1,60 @@
+body {
+  background-color: #C05746;
+  font-family: 'Open Sans', sans-serif;
+  color: #253031;
+  font-size: 14px;
+}
+h1 {
+  font-size: 22px;
+  color: #1A090D;
+  style: bold;
+}
+h2 {
+  font-size: 18px;
+  color: #4A314D;
+}
+a {
+  color: #ADC698;
+}
+a:not(.btn):hover {
+  color: #31081F;
+  font-size: 105%;
+}
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.card {
+  background-color: #FFFAFF;
+  border-radius: 5px;
+  padding: 25px;
+  margin: 20px;
+}
+.movieimg {
+  width: 375px;
+  margin: 15px;
+  border-radius: 2px;
+}
+.textcenter {
+  text-align: center;
+}
+.imgcircle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.btn {
+  padding: 7px;
+  background-color: #1A090D;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+}
+#btn-licorice:hover {
+  font-size: 105%;
+}
