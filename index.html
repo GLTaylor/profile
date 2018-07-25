@@ -9,61 +9,66 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 
 
-
 </head>
 <body>
-<div class="container">
-  <div class="card textcenter">
-    <img class = "imgcircle" src="images/taylorface.jpg" alt="Taylor Lindsay and cows" width= 200px>
+<div id="sidebar">
+  <a href="#summary" class="sidebartext"><i class="far fa-smile"></i></a>
+  <a href="#socials" class="sidebartext"> <i class="far fa-address-book"></i></a>
+  <a href="#favorite-movies" class="sidebartext"><i class="fas fa-film"></i></a>
+</div>
+<div id="page-content">
+  <div class="container">
+    <div class="card textcenter" id="summary">
+      <img class = "imgcircle" src="images/taylorface.jpg" alt="Taylor Lindsay and cows" width= 200px>
 
-    <h1> Taylor Lindsay </h1>
-    <h2> Student at LeWagon </h2>
-    <p> After working with and around developers for a few years I decided it would be <em>really</em> fun to do what they do. </p>
-    <a href="https://www.lewagon.com/" class = "btn" id = "btn-licorice"> This is basically where I live now</a>
-  </div>
+      <h1> Taylor Lindsay </h1>
+      <h2> Student at LeWagon </h2>
+      <p> After working with and around developers for a few years I decided it would be <em>really</em> fun to do what they do. I made this page in the fourth week of my studies. My goal is to build better alarm apps. </p>
+      <a href="https://www.lewagon.com/" class = "btn" id = "btn-licorice"> This is basically where I live now</a>
+    </div>
 
-  <div class="card textcenter">
-    <ul class="list-inline">
-      <li><a href="http://www.taylorgracelindsay.com" target="_blank"><i class="fas fa-bath"></i> Website</a></li>
-      <li><a href="https://www.instagram.com/notmybreakfast/tagged/?hl=en" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
-      <li><a href="https://www.linkedin.com/in/taylor-grace-lindsay/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2> My Favorite Movies </h2>
-      <table>
-        <thead>
-        </thead>
-        <tbody>
-          <tr>
-            <td><img src="images/coraline.jpg" alt="Coraline" class="movieimg"></td>
-            <td><h3>Coraline</h3><p>It's like the Odyssey but animated and wonderfully creepy. I dyed my hair to match the main character's.</p></td>
-          </tr>
-          <tr>
-            <td><img src="images/darjeeling.jpg" alt="Darjeeling Limited" class="movieimg"></td>
-            <td><h3>Darjeeling Limited</h3> <p>It's like every other Wes Anderson movie but better.</p></td>
-          </tr>
-          <tr>
-            <td><img src="images/sunshine.jpg" alt="Eternal Sunshine" class="movieimg"></td>
-            <td><h3>Eternal Sunshine of the Spotless Mind</h3> <p> If you don't know this movie you've never met a white girl</p></td>
-          </tr>
-        </tbody>
-        </table>
-  </div>
-
-  <div class="card textcenter">
-    <h2>About this page</h2>
-
-      <p>This was coded during one day and I'll never know if what I studied for two months helped me prepare for this...</p>
-
+    <div class="card textcenter" id="socials">
       <ul class="list-inline">
-        <li><a href="#"><i class="fas fa-heart"></i></a></li>
-        <li><a href="#"><i class="fas fa-share"></a></i></li>
-        <li><a href="#"><i class="fas fa-star"></a></i></li>
+        <li><a href="http://www.taylorgracelindsay.com" target="_blank"><i class="fas fa-bath"></i> Website</a></li>
+        <li><a href="https://www.instagram.com/notmybreakfast/tagged/?hl=en" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/taylor-grace-lindsay/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
       </ul>
-  </div>
+    </div>
 
+    <div class="card" id="favorite-movies">
+      <h2> My Favorite Movies </h2>
+        <table>
+          <thead>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="images/coraline.jpg" alt="Coraline" class="movieimg"></td>
+              <td><h3>Coraline</h3><p>It's like the Odyssey but animated and wonderfully creepy. I dyed my hair to match the main character's.</p></td>
+            </tr>
+            <tr>
+              <td><img src="images/darjeeling.jpg" alt="Darjeeling Limited" class="movieimg"></td>
+              <td><h3>Darjeeling Limited</h3> <p>It's like every other Wes Anderson movie but better.</p></td>
+            </tr>
+            <tr>
+              <td><img src="images/sunshine.jpg" alt="Eternal Sunshine" class="movieimg"></td>
+              <td><h3>Eternal Sunshine of the Spotless Mind</h3> <p> If you don't know this movie you've never met a white girl</p></td>
+            </tr>
+          </tbody>
+          </table>
+    </div>
+
+    <div class="card textcenter">
+      <h2>About this page</h2>
+
+        <p>This was coded during one day and I'll never know if what I studied for two months helped me prepare for this...</p>
+
+        <ul class="list-inline">
+          <li><a href="#"><i class="fas fa-heart"></i></a></li>
+          <li><a href="#"><i class="fas fa-share"></a></i></li>
+          <li><a href="#"><i class="fas fa-star"></a></i></li>
+        </ul>
+    </div>
+</div>
 </div>
 </body>
 </html>
